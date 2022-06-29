@@ -568,6 +568,192 @@ hr{
     }    
     
 }
+@media all  and (max-width:450px){
+    body{
+        background: url("images/bg-top.svg");
+        font-family: 'Montserrat', sans-serif;
+        padding:40px 30px 40px 30px;
+        color: var(--Very-Light-Grayish-Blue);
+        animation-duration: 2s;
+        animation-name:backInDown;
+    }
+    .container{
+        width: 100%;
+        height:650px;
+    }
+    .container---header{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container---header--content{
+        width: 100%;
+        height: 90%;
+    }
+    .title{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        color: var(--Grayish-Blue);
+    }
+    .purpose{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    .months{
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:var(--Light-Grayish-Blue);
+    }
+    .yearly{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:var(--Light-Grayish-Blue);
+    }
+    .choices{
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .toggle{
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 35px;
+        border-radius: 20px;
+        background:  var(--Linear-Gradient);
+        transition: 2s;
+    }
+    
+    .toggle-button{
+        top: 3px;
+        left: 3px;
+        width: 30px;
+        height: 30px;
+        background: white;
+        position: relative;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+    
+    }
+    .container---main{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        width: 100%;
+        height: 95%;
+        display: block;
+    }
+    .col:nth-child(1){
+        width: 100%;
+        height: 90%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--Dark-Grayish-Blue);
+        background-color: var(--Very-Light-Grayish-Blue);
+        margin-bottom: 20px;
+    }
+    .col:nth-child(2){
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: var(--Linear-Gradient);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--Very-Light-Grayish-Blue);
+        margin-bottom: 20px;
+    }
+    .col:nth-child(3){
+        width: 100%;
+        height: 90%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--Dark-Grayish-Blue);
+        background-color: var(--Very-Light-Grayish-Blue);
+        margin-bottom: 20px;
+    }
+    .col--content{
+        width: 85%;
+        height: 80%;
+        text-align: center;
+    }
+    .prices{
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    span{
+        font-size: 4rem;
+        margin-left: 5px;
+    }
+    .description{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid var(--Very-Light-Grayish-Blue);
+    }
+    hr{
+        color: var(--Very-Light-Grayish-Blue);
+    }
+    .btn{
+        padding: 0.8rem;
+        width: 100%;
+        background-color: var(--Very-Light-Grayish-Blue);
+        margin-top: 3rem;
+        border-radius: 10px;
+        color: var(--Linear-Gradient);
+        font-size: 15px;
+    }
+    .btns{
+        padding: 0.8rem;
+        width: 100%;
+        background-color: var(--Linear-Gradient);
+        margin-top: 3rem;
+        border-radius: 10px;
+        color: var(--Very-Light-Grayish-Blue);
+        font-size: 15px;
+    }
+    .info{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .active{
+        background-color: var(--Linear-Gradient);
+    }
+    .active .toggle-button{
+        left: 40px;
+    }    
+    
+}
 @media all and (amx-width:1440px) {
     body{
         background: url("images/bg-top.svg");
